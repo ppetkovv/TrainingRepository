@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPreparation", "ExamPrep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillTheMatrix", "FillTheMatrix\FillTheMatrix.csproj", "{80D2EB3C-9147-467C-A7D0-E0261A5643D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{C4535D2D-EABB-4887-AD98-CF628BBE5CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80D2EB3C-9147-467C-A7D0-E0261A5643D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D2EB3C-9147-467C-A7D0-E0261A5643D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D2EB3C-9147-467C-A7D0-E0261A5643D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4535D2D-EABB-4887-AD98-CF628BBE5CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4535D2D-EABB-4887-AD98-CF628BBE5CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4535D2D-EABB-4887-AD98-CF628BBE5CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4535D2D-EABB-4887-AD98-CF628BBE5CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
