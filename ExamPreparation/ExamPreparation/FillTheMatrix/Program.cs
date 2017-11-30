@@ -14,6 +14,7 @@ namespace FillTheMatrix
 
             int n = Int32.Parse(Console.ReadLine());
             int[,] matrix = new int[n, n];
+
         }
     }
 }
