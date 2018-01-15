@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokiSkoki", "CokiSkoki\Coki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesInBottle", "MessagesInBottle\MessagesInBottle.csproj", "{332A4E2B-C93B-4F3F-898C-9B69294E2DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JediMeditation", "JediMeditation\JediMeditation.csproj", "{1976F070-395C-4BEE-A054-8C42737CC944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "LargestAreaInMatrix\LargestAreaInMatrix.csproj", "{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{332A4E2B-C93B-4F3F-898C-9B69294E2DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{332A4E2B-C93B-4F3F-898C-9B69294E2DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{332A4E2B-C93B-4F3F-898C-9B69294E2DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1976F070-395C-4BEE-A054-8C42737CC944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1976F070-395C-4BEE-A054-8C42737CC944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1976F070-395C-4BEE-A054-8C42737CC944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1976F070-395C-4BEE-A054-8C42737CC944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
