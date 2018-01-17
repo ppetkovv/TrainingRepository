@@ -54,13 +54,11 @@ namespace LargestAreaInMatrixDFSIterating
             {
                 currentVertex = stack.Pop();
                 currentCount++;
-                if ((!booleanGraph[currentVertex.Row, currentVertex.Col]))
+                booleanGraph[currentVertex.Row, currentVertex.Col] = true;
+                foreach (Vertex vertex in GetAdjacentVertex(currentVertex))
                 {
-                    booleanGraph[currentVertex.Row, currentVertex.Col] = true;
-                    foreach (Vertex vertex in GetAdjacentVertex(currentVertex))
-                    {
-                        stack.Push(vertex);
-                    }
+                    stack.Push(vertex);
+                    booleanGraph[vertex.Row, vertex.Col] = true;
                 }
             }
         }
