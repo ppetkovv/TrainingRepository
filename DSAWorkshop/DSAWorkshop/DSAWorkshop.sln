@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JediMeditation", "JediMedit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "LargestAreaInMatrix\LargestAreaInMatrix.csproj", "{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions", "Actions\Actions.csproj", "{ED5CB1D6-3D16-494B-B2BD-3987F7B53D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrixDFSIterating", "LargestAreaInMatrixDFSIterating\LargestAreaInMatrixDFSIterating.csproj", "{241A7991-4BFF-4773-816C-DA771976E583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48DEB6BF-7298-4FFF-8BC7-35E418B6AE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5CB1D6-3D16-494B-B2BD-3987F7B53D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5CB1D6-3D16-494B-B2BD-3987F7B53D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5CB1D6-3D16-494B-B2BD-3987F7B53D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5CB1D6-3D16-494B-B2BD-3987F7B53D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241A7991-4BFF-4773-816C-DA771976E583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241A7991-4BFF-4773-816C-DA771976E583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241A7991-4BFF-4773-816C-DA771976E583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241A7991-4BFF-4773-816C-DA771976E583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
