@@ -27,9 +27,11 @@ namespace MessagesInBottle
 
 
             decodedMessages = new List<string>();
+
             DecodeMessage(0, new StringBuilder());
 
             Console.WriteLine(finalCount);
+
             if (decodedMessages.Count != 0)
                 Console.WriteLine(string.Join("\n", decodedMessages.OrderBy(x => x)));
         }
