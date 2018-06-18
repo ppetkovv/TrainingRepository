@@ -14,5 +14,6 @@ namespace MyTwitter.Data.Models
         public int Followers { get; set; }
         public int Likes { get; set; }
         public ICollection<AppUserTwitterUser> AppUsers { get; set; }
+        public ICollection<Tweet> TweetsCollection { get; set; }
     }
 }

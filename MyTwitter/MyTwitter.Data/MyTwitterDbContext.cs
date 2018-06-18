@@ -14,6 +14,7 @@ namespace MyTwitter.Data
         }
 
         public virtual DbSet<TwitterUser> Twitters { get; set; }
+        public virtual DbSet<Tweet> Tweets { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -29,6 +30,11 @@ namespace MyTwitter.Data
                 .HasOne(t => t.TwitterUser)
                 .WithMany(u => u.AppUsers)
                 .HasForeignKey(t => t.TwitterUserId);
+
+            builder.Entity<TwitterUser>()
+                .HasMany(tu => tu.TweetsCollection)
+                .WithOne(tweet => tweet.Twitter)
+                .IsRequired();
 
             base.OnModelCreating(builder);
         }

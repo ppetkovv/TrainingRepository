@@ -11,6 +11,7 @@ namespace MyTwitter.Data.UnitOfWork
         private readonly MyTwitterDbContext context;
 
         private IAppUserRepository userRepository;
+        private ITweetRepository tweetRepository;
 
         public UnitOfWork(MyTwitterDbContext context)
         {
@@ -19,6 +20,9 @@ namespace MyTwitter.Data.UnitOfWork
 
         public IAppUserRepository AppUserRepository => this.userRepository ??
             (this.userRepository = new AppUserRepository(this.context));
+
+        public ITweetRepository TweetRepository => this.tweetRepository ??
+            (this.tweetRepository = new TweetRepository(this.context));
 
         public void SaveChanges()
         {

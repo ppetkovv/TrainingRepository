@@ -12,7 +12,6 @@ namespace MyTwitter.Services
     public class AppUserService : IAppUserService
     {
         private readonly IUnitOfWork unitOfWork;
-        private readonly IMappingProvider mappingProvider;
 
         public AppUserService(IUnitOfWork unitOfWork, IMappingProvider mappingProvider)
         {
